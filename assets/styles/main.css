@@ -1,0 +1,65 @@
+html{
+    background-color: red;
+}
+
+div{
+  /* display: inline-block;*/
+}
+
+body{
+    background-color: gray;
+}
+
+header{
+    background-color: pink;
+    height: 10vh;
+    width: 100vw;
+}
+
+.sign-in-block{
+    width: 550px;
+    margin-left: auto;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.sign-in-introduction1-container, .sign-in-introduction2-container{
+    width: 100%;
+    height: 50%;
+    text-align: end;
+    vertical-align: middle;
+}
+
+.sign-in-introduction1-container{
+    color: blue;
+}
+
+.sign-in-introduction2-container{
+    color: blue;
+}
+
+.sign-in-text-container, .sign-in-button-container{
+    width: 48%;
+    height: 98%;
+    display: inline-block;
+}
+
+.sign-in-text-container{
+
+    background-color: black;
+}
+
+.sign-in-button-container{
+    background-color: green;
+}
+
+main{
+    background-color: yellow;
+    height: 100vh;
+    width: 100vw;
+}
+footer{
+    background-color: blue;
+    height: 10vh;
+    width: 100vw;
+}
