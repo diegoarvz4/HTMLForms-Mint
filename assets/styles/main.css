@@ -14,6 +14,7 @@ body{
 header{
     background-color: pink;
     height: 10vh;
+    min-height: 50px;
     width: 100vw;
 }
 
@@ -28,10 +29,11 @@ header{
 }
 /********************************************/
 
-/******************** MAIN FORM ***************/
+/******************** MAIN ***************/
 main{
     background-color: yellow;
-    height: 100vh;
+    height: 80vh;
+    min-height: 300px;
     width: 100vw;
 }
 
@@ -40,21 +42,41 @@ main{
     align-content: center;
 }
 
+/******************** MAIN -> FORM ***************/
 .form-container{
     background-color: brown;    
     margin-top: 10vh; 
-    width: 30%;
-    max-width: 350px;
-    min-width: 300px;
-    height: 500px; /*after this, change to auto*/
+    width: 450px; /*30%*/
+    /* max-width: 450px;  */
+    min-width: 400px;
+    height:fit-content;  
+}
+.pre-form-container{    
+    flex-direction: column;
 }
 
+.title-form-img{    
+    justify-content: center;
+    align-content: center;
+}
 
+.brands-form{
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;        
+}
 
+/******************** END / MAIN -> FORM **********/
+
+/******************** END / MAIN  ***************/
+
+/******************** FOOTER ***************/
 
 
 footer{
     background-color: blue;
     height: 10vh;
+    min-height: 50px;
     width: 100vw;
 }
