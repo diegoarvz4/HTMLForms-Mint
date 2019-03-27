@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="assets/styles/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles/main.css">
     <title>Document</title>
 </head>
@@ -20,11 +21,11 @@
                 Already have an Intuit account?
             </div>
             <div>
-                I forgot my User ID or Password
+                <span class="highlight-text" >I forgot my User ID or Password</span>
             </div>
         </div>
         <div>
-            <button>Candado Sign In</button>
+            <button class="sign-in-button"><i class="material-icons lock-icon" >lock</i> Sign In</button>
         </div>
     </header>
 
@@ -61,7 +62,7 @@
                     <br>
                     <input id="pasword" type="text" value="">
                     <br>
-                    <button>Create Account</button>
+                    <button ><i class="material-icons create-account-icon" >lock</i>Create Account</button>
                   </form>
                   <div class="privacy-statement-text">
                      <p>By clicking Create Account, you agree to our
@@ -76,7 +77,19 @@
         </div>
 
     </main>
-    <footer></footer>
+    <footer class="flex-container">
+        <div>
+            <span class="highlight-text-gray"> Legal </span>
+            <span class="highlight-text-gray"> Privacy </span>
+            <span class="highlight-text-gray"> Security </span>
+        </div>
+        <div>
+            © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+        </div>
+        <div>
+            Terms and conditions, features, support, pricing, and service options subject to change without notice.
+        </div>
+    </footer>
 </body>
 
 </html>

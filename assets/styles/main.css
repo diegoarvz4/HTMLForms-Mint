@@ -1,10 +1,10 @@
 html{
-    background-color: red;
+    background-color:  #ECEEF1;
     font-family: 'Roboto', sans-serif;
 }
 
 body{
-    background-color: gray;
+    background-color: #ECEEF1;
 }
 
 /******************** HEADER ***************/
@@ -13,7 +13,7 @@ body{
 }
 
 header{
-    background-color: pink;
+    /* background-color: pink; */
     height: 10vh;
     min-height: 50px;
     width: 100vw;
@@ -28,12 +28,30 @@ header{
     padding: 10px;
     text-align: end;
 }
+
+.sign-in-button{
+    font-size: 16px;
+    background-color: #0077C5;    
+    color: white;
+    border-radius: 3px;
+    border: 1px;
+    border-color: black;
+    padding: 12px;
+    height: 40px;
+    text-align: center;
+    vertical-align: text-bottom;
+    
+}
+
+.lock-icon{
+    font-size: 14px;
+}
 /********************************************/
 
 /******************** MAIN ***************/
 main{
-    background-color: yellow;
-    height: 120vh;
+    /* background-color: yellow; */
+    height: fit-content;
     min-height: 650px;
     width: 100vw;
 }
@@ -45,18 +63,22 @@ main{
 
 /******************** MAIN -> FORM ***************/
 .form-container{
-    background-color: brown;    
-    margin-top: 10vh; 
+    background-color: white;    
+    margin-top: 10vh;     
     width: 450px; /*30%*/
     /* max-width: 450px;  */
     min-width: 400px;
-    height:fit-content;  
-}
-.pre-form-container{    
-    flex-direction: column;
+    height:fit-content; 
+    
 }
 
-.title-form-img{    
+.pre-form-container{    
+    flex-direction: column;
+    background-color: #ECEEF1;
+}
+
+.title-form-img{  
+      
     justify-content: center;
     align-content: center;
 }
@@ -66,6 +88,10 @@ main{
     justify-content: center;
     align-content: center;
     flex-wrap: nowrap;        
+}
+.form-content-container{
+    border: 1px rgb(193, 197, 200); 
+    border-style: solid;
 }
 
 
@@ -81,13 +107,12 @@ main{
     padding-left: 45px; 
     padding-right: 45px; 
     text-align: center;
-    font-size: 18px;   
+    font-size: 14px;   
     padding-bottom: 20px;  
 }
 
 .highlight-text{
-    text-align: center;
-   
+    text-align: center;   
     color: rgb(44, 76, 182);  
     cursor: pointer;
 }
@@ -95,6 +120,16 @@ main{
 .highlight-text:hover{
     text-decoration: underline;
 }
+
+.highlight-text-gray{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.highlight-text-gray:hover{
+    text-decoration: underline;
+}
+
 
 .form-data{
     margin: 0 auto;
@@ -107,9 +142,12 @@ main{
     width: 100%;
     height: 32px;
     border-radius: 3px;
-    margin-top: 10px;
+    margin-top: 10px;    
+}
+
+input{
     margin-bottom: 20px;
-    border: 1px gray;
+    border: 1px solid rgb(193, 197, 200);
 }
 
 #phone{
@@ -117,7 +155,7 @@ main{
 }
 
 .form-data > label{
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .phone-text{
@@ -126,33 +164,42 @@ main{
 
 
 .form-data > button{
-    width: 100%;
+    width: 100%;    
     height: 45px;
     text-align: center;
-    background-color: rgb(29, 95, 172);
+    background-color: #0077C5;   
     border-radius: 3px;
     color: white;
     font-size: 20px;
     border: 0px;
     margin-top: 20px;
     margin-bottom: 20px;
+    vertical-align: text-bottom;
+}
+
+.create-account-icon{
+    font-size: 16px;
+    margin-right: 8px;    
+    vertical-align: text-bottom;
+
 }
 
 .privacy-statement-text{
     
     width: 65%;
     margin: 0 auto;
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
     margin-bottom: 40px;
     font-style: italic;
+    line-height: 1.6;
 }
 
 .recaptcha-text{
     padding: 30px;
     font-size: 13px;
     text-align: center;
-    background-color: gray;
+    background-color: #ECEEF1;
 }
 
 
@@ -164,8 +211,19 @@ main{
 
 
 footer{
-    background-color: blue;
-    height: 10vh;
+    background-color: #ECEEF1;
+    margin-top: 30px;
+    height: fit-content;    
     min-height: 50px;
     width: 100vw;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+footer > div {    
+  
+    margin-bottom: 8px;
+    
+    text-align: center;
+    width: 100%;
 }
