@@ -1,4 +1,4 @@
 git add --all
-git commit -m "Form-alignment"
+git commit -m "Everything done for now"
 git push origin development
 git status
