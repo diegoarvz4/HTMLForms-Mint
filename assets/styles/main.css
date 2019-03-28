@@ -39,7 +39,6 @@ header{
     height: 40px;
     text-align: center;
     vertical-align: text-bottom;
-    
 }
 
 .lock-icon{
@@ -171,11 +170,9 @@ input{
     font-size: 16px;
     margin-right: 8px;    
     vertical-align: text-bottom;
-
 }
 
 .privacy-statement-text{
-    
     width: 65%;
     margin: 0 auto;
     font-size: 13px;

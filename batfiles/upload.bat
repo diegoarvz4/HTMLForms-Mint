@@ -1,4 +1,4 @@
 git add --all
-git commit -m "Everything done for now"
+git commit -m "Last corrections"
 git push origin development
 git status
