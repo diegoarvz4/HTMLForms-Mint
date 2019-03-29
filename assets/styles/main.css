@@ -1,0 +1,214 @@
+html{
+    background-color:  #ECEEF1;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #ECEEF1;
+}
+
+/******************** HEADER ***************/
+.flex-container{
+    display: flex;
+}
+
+header{
+    height: 10vh;
+    min-height: 50px;
+    width: 100vw;
+}
+
+.header-flex{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-flex > div{
+    padding: 10px;
+    text-align: end;
+}
+
+.sign-in-button{
+    font-size: 16px;
+    background-color: #0077C5;    
+    color: white;
+    border-radius: 3px;
+    border: 1px;
+    border-color: black;
+    padding: 12px;
+    height: 40px;
+    text-align: center;
+    vertical-align: text-bottom;
+}
+
+.lock-icon{
+    font-size: 14px;
+}
+/********************************************/
+
+/******************** MAIN ***************/
+main{
+    height: fit-content;
+    min-height: 650px;
+    width: 100vw;
+}
+
+.main-flex{
+    justify-content: center;
+    align-content: center;
+}
+
+/******************** MAIN -> FORM ***************/
+.form-container{
+    background-color: white;    
+    width: 450px;
+    min-width: 400px;
+    height:fit-content; 
+}
+
+.pre-form-container{    
+    flex-direction: column;
+    background-color: #ECEEF1;
+}
+
+.title-form-img{  
+    justify-content: center;
+    align-content: center;
+}
+
+.brands-form{
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;        
+}
+
+.form-content-container{
+    border: 1px rgb(193, 197, 200); 
+    border-style: solid;
+}
+
+.form-content-container > h1{
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    text-align: center;
+    font-size: 30px;    
+}
+
+.form-content-container > h4{ 
+    padding: 0 45px;
+    text-align: center;
+    font-size: 14px;   
+    padding-bottom: 20px;  
+}
+
+.highlight-text{
+    text-align: center;   
+    color: rgb(44, 76, 182);  
+    cursor: pointer;
+}
+
+.highlight-text:hover{
+    text-decoration: underline;
+}
+
+.highlight-text-gray{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.highlight-text-gray:hover{
+    text-decoration: underline;
+}
+
+.form-data{
+    margin: 0 auto;
+    width: 85%;
+    padding-bottom: 20px;
+}
+
+.form-data > input{
+    width: 100%;
+    height: 32px;
+    border-radius: 3px;
+    margin-top: 10px;    
+}
+
+input{
+    margin-bottom: 40px;
+    border: 1px solid rgb(193, 197, 200);
+}
+
+#phone{
+    margin-bottom: 0;
+}
+
+.form-data > label{
+    font-size: 14px;
+}
+
+.phone-text{
+    display: inline-block;
+    margin-bottom: 43px;
+    font-size: 12px;
+}
+
+
+.form-data > button{
+    width: 100%;    
+    height: 45px;
+    text-align: center;
+    background-color: #0077C5;   
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    border: 0px;
+    vertical-align: text-bottom;
+}
+
+.create-account-icon{
+    font-size: 16px;
+    margin-right: 8px;    
+    vertical-align: text-bottom;
+}
+
+.privacy-statement-text{
+    width: 65%;
+    margin: 0 auto;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.recaptcha-text{
+    padding: 30px;
+    font-size: 13px;
+    text-align: center;
+    background-color: #ECEEF1;
+}
+
+
+/******************** END / MAIN -> FORM **********/
+
+/******************** END / MAIN  ***************/
+
+/******************** FOOTER ***************/
+
+
+footer{
+    background-color: #ECEEF1;
+    margin-top: 30px;
+    height: fit-content;    
+    min-height: 50px;
+    width: 100vw;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+footer > div {    
+    margin-bottom: 8px;
+    text-align: center;
+    width: 100%;
+}
