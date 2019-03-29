@@ -6,9 +6,11 @@ This is a Mint sign in and sign up form replica. The purpose of this project is 
 
 ## Skills we have demonstrated after completing the project
 
-Form elements and proper syntax
+Form elements and proper syntax.
 
-CSS flexbox
+CSS flexbox.
+
+Styling.
 
 ## Contributors
 
